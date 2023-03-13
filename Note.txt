@@ -1,0 +1,24 @@
+=========================================================================================
+======================================== Welcome ========================================
+=========================================================================================
+
+there is multiple ways we can start and stop writing some of them are....
+
+also we can read comments (line.comment.text)
+function F1016 means to start writing from that position
+
+=========================================================
+All the commands and functions working principals
+=========================================================
+1) G21  : this command is to set the measurement unit to mm/inc/px etc.
+2) G90  : is for positioning methods default absolute (absolute/relative)
+3) G1   : is for all sorts of movement
+4) F2540: is for rapid initial position (it will take 3 parameters in the next version)
+5) F127 : i think is used for start writing/pen down (unknown)
+6)G1's z: if the (z) value is -/ z < 0 or function F127 then it means to write or pen down
+         if the (z) value is +/0 or function F2540 then it means retract or pun up
+
+7) F1016: ? Unknown
+
+8) for the final touch remove all the - from y axis movements
+=========================================================================================
